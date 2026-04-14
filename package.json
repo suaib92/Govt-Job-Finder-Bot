@@ -1,0 +1,24 @@
+{
+  "name": "govt-job-finder-bot",
+  "version": "1.0.0",
+  "description": "A production-ready Telegram bot that scrapes government job websites and sends alerts for new IT-related positions",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "npm install && node index.js",
+    "dev": "node index.js"
+  },
+  "keywords": ["telegram", "bot", "government", "jobs", "scraper", "nodejs"],
+  "author": "suaib92",
+  "license": "MIT",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.65.0",
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0-rc.12",
+    "node-cron": "^3.0.2",
+    "dotenv": "^16.0.3"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
